@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="id_screenTitles">
+
+        <item>Close</item>
+        <item>My Profile</item>
+
+        <item>Nearby Hospital</item>
+        <item>About us</item>
+        <item>settings</item>
+
+        <item/>
+        <item>Logout</item>
+
+
+
+
+    </string-array>
+    <string-array name="country">
+
+        <item>India</item>
+        <item>USA</item>
+
+        <item>Japan</item>
+        <item>Nepal</item>
+        <item>China</item>
+
+        <item>others</item>
+
+
+
+
+    </string-array>
+    <string-array name="id_activityScreenIcons">
+        <item>@drawable/close</item>
+        <item>@drawable/profile</item>
+
+        <item>@drawable/medicine</item>
+        <item>@drawable/team</item>
+        <item>@drawable/settings</item>
+
+        <item>0</item>
+        <item>@drawable/logout</item>
+    </string-array>
+    <string-array name="names">
+
+        <item>Keep your heels, head, and standards high.</item>
+        <item> Feminism is the radical notion that women are human beings.</item>
+        <item>I can hear the roar of women’s silence. </item>
+        <item>  Above all, be the heroine of your life, not the victim. </item>
+        <item> She believed she could, so she did.</item>
+        <item> The fastest way to change society is to mobilize the women of the world.</item>
+
+        <item> You don’t have to be anti-man to be pro-woman. </item>
+
+
+
+
+    </string-array>
+</resources>

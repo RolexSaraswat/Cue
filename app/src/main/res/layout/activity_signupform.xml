@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fef5f0"
+
+    tools:context=".signupform">
+
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="325dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginBottom="284dp"
+        android:background="@drawable/edittext"
+        android:drawableLeft="@drawable/nametag"
+        android:drawablePadding="18dp"
+        android:hint="Full Name"
+
+        android:inputType="textCapWords"
+        android:paddingLeft="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/spinner"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="325dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="44dp"
+
+
+        android:layout_marginBottom="176dp"
+        android:background="@drawable/edittext"
+        android:drawableLeft="@drawable/email"
+        android:drawablePadding="20dp"
+        android:hint="Email"
+        android:inputType="textCapWords"
+        android:paddingLeft="23dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/spinner"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText2"
+        app:layout_constraintVertical_bias="0.32" />
+
+    <Spinner
+        android:layout_width="114dp"
+        android:layout_height="56dp"
+        app:layout_constraintBottom_toBottomOf="@+id/editText"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/spinner"
+        android:background="@drawable/edittext"
+        android:textAlignment="center"
+        android:entries="@array/country"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toEndOf="@+id/editText"
+        app:layout_constraintTop_toBottomOf="@+id/editText2"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="173dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginBottom="96dp"
+        android:drawablePadding="18dp"
+        android:background="@drawable/edittext"
+        android:drawableLeft="@drawable/ageicon"
+        android:hint="Age"
+        android:inputType="number"
+
+        android:paddingLeft="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText3" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="202dp"
+        android:layout_height="554dp"
+        android:layout_marginStart="208dp"
+        android:layout_marginBottom="320dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/papperchery" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="160dp"
+        android:layout_height="428dp"
+        android:layout_marginStart="248dp"
+        android:layout_marginTop="84dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/leave" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="306dp"
+        android:layout_height="298dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/tellus" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profileImageView"
+        android:layout_width="190dp"
+        android:layout_height="166dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="180dp"
+        android:onClick="handleImageClick"
+        android:src="@drawable/dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/came"
+        android:layout_width="50dp"
+        android:layout_height="47dp"
+        app:layout_constraintBottom_toBottomOf="@+id/profileImageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.642"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/profileImageView"
+        app:layout_constraintVertical_bias="1.0"
+
+        android:background="@drawable/came" />
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="updateProfile"
+        android:background="@drawable/edittext"
+        android:text="      Update Profile     "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText" />
+</androidx.constraintlayout.widget.ConstraintLayout>

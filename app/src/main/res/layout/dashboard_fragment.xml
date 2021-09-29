@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+            android:id="@+id/activity_calendar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:background="@drawable/putrp"
+            tools:context="pl.mchtr.piorkowski.periodcalendar.CalendarActivity">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="890dp"
+            android:layout_marginTop="-180dp"
+            android:elevation="30dp"
+            android:src="@drawable/circl" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="395dp"
+            android:layout_height="828dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imageView8"
+                android:layout_width="157dp"
+                android:layout_height="148dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="40dp"
+                android:outlineProvider="bounds"
+                android:src="@drawable/dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/welcome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="152dp"
+
+
+                android:fontFamily="@font/allura"
+                android:shadowRadius="@integer/button_pressed_animation_delay"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/imageView8" />
+
+            <TextView
+                android:id="@+id/age"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="188dp"
+                android:elevation="30dp"
+
+                android:textSize="16dp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.46"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/imageView8" />
+
+            <Button
+                android:id="@+id/prefrences"
+                android:layout_width="236dp"
+                android:layout_height="72dp"
+                android:layout_marginTop="192dp"
+                android:layout_marginEnd="80dp"
+                android:background="@drawable/greybuton"
+                android:drawableLeft="@drawable/cale"
+                android:elevation="20dp"
+                android:paddingLeft="15dp"
+
+                android:text="       Track"
+                android:textAlignment="viewStart"
+
+                android:textAllCaps="false"
+                android:textSize="25dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+
+            <Button
+                android:id="@+id/updatee"
+                android:layout_width="236dp"
+                android:layout_height="72dp"
+                android:layout_marginTop="292dp"
+                android:layout_marginEnd="80dp"
+                android:background="@drawable/greybuton"
+                android:drawableLeft="@drawable/woman"
+                android:elevation="20dp"
+                android:paddingLeft="15dp"
+
+                android:text="  Update Profile"
+                android:textAlignment="viewStart"
+
+                android:textAllCaps="false"
+                android:textSize="22dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+
+
+            <TextView
+                android:id="@+id/quot"
+                android:layout_width="351dp"
+                android:layout_height="72dp"
+                android:layout_marginTop="32dp"
+                android:text=" The age of a woman doesn’t mean a thing. The best tunes are played on the oldest fiddles. "
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="italic"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.33"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/updatee" />
+
+            <ImageView
+                android:id="@+id/flag"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+
+                android:layout_marginTop="36dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.087"
+                app:layout_constraintStart_toEndOf="@+id/age"
+                app:layout_constraintTop_toTopOf="@+id/welcome"
+                app:srcCompat="@drawable/india" />
+
+
+            <com.getbase.floatingactionbutton.FloatingActionsMenu
+
+                android:id="@+id/floatingActionsMenu"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:layout_marginTop="256dp"
+
+                android:background="@drawable/share1"
+                android:elevation="50dp"
+
+                app:fab_addButtonColorNormal="@color/transparent"
+                app:fab_addButtonColorPressed="@color/white"
+                app:fab_addButtonPlusIconColor="@color/transparent"
+                app:fab_expandDirection="up"
+                app:fab_labelStyle="@drawable/share"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.981"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <com.getbase.floatingactionbutton.FloatingActionButton
+                    android:layout_width="wrap_content"
+                    android:id="@+id/insta"
+                    android:layout_height="wrap_content"
+                    app:fab_colorNormal="@color/transparent"
+                    app:fab_colorPressed="@color/white"
+                    app:fab_icon="@drawable/i1" />
+
+                <com.getbase.floatingactionbutton.FloatingActionButton
+                    android:layout_width="wrap_content"
+                    android:id="@+id/facebook"
+                    android:layout_height="wrap_content"
+                    app:fab_colorNormal="@color/transparent"
+                    app:fab_colorPressed="@color/white"
+                    app:fab_icon="@drawable/f3" />
+
+                <com.getbase.floatingactionbutton.FloatingActionButton
+                    android:layout_width="wrap_content"
+                   android:id="@+id/twitter"
+                    android:layout_height="wrap_content"
+                    app:fab_colorNormal="@color/transparent"
+                    app:fab_colorPressed="@color/white"
+                    app:fab_icon="@drawable/twitter" />
+
+                <com.getbase.floatingactionbutton.FloatingActionButton
+                   android:id="@+id/whatsapp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:fab_colorNormal="@color/transparent"
+                    app:fab_colorPressed="@color/white"
+
+                    app:fab_icon="@drawable/w1" />
+
+
+            </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Share Cue with your Friends."
+                android:textSize="20dp"
+                app:layout_constraintEnd_toStartOf="@+id/floatingActionsMenu"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/quot" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#d9a7c7</color>
+    <color name="teal_700">#e8cdcd</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="transparent">#000000FF</color>
+    <color name="colorPrimary">#f8e3ec</color>
+    <color name="colorPrimaryDark">#ffebbe</color>
+    <color name="colorAccent">#f2709c</color>
+    <color name="periodDayBackground">#F5CDDE</color>
+    <color name="fertileDayBackground">#C6F8E5</color>
+    <color name="ovulationDayBackground">#E2BEF1</color>
+    <color name="neutralBackground">#ffffff</color>
+
+</resources>

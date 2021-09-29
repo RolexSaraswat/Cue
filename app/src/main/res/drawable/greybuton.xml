@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+       xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--fill color-->
+    <solid android:color="@color/transparent"/>
+    <stroke android:width="3dp" android:color="#66424242" />
+    <!--Border width and border color-->
+
+    <!--The four corners of the button are arc corners -->
+    <!-- Arc angle radius -->
+    <corners android:radius="60dp"/>
+</shape>

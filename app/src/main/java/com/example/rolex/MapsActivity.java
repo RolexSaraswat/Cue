@@ -1,4 +1,4 @@
-package com.example.rolex;
+Fpackage com.example.rolex;
 
 import android.Manifest;
 import android.content.pm.PackageManager;
@@ -198,7 +198,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         googlePlacesUrl.append("&radius=" + PROXIMITY_RADIUS);
         googlePlacesUrl.append("&type=" + nearbyPlace);
         googlePlacesUrl.append("&sensor=true");
-        googlePlacesUrl.append("&key=" + "AIzaSyClwf8IXJtPVTRxo60VmbSKGFr1GXyuylw");
+        googlePlacesUrl.append("&key=" + "");
         Log.d("getUrl", googlePlacesUrl.toString());
         return (googlePlacesUrl.toString());
     }

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.Udhayarajan.liquid-swipe-android:final:1.0.1@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ba12e37e09e270a5e5e3fa6ef7af2234/transformed/jetified-final-1.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ba12e37e09e270a5e5e3fa6ef7af2234/transformed/jetified-final-1.0.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/ba12e37e09e270a5e5e3fa6ef7af2234/transformed/jetified-final-1.0.1/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

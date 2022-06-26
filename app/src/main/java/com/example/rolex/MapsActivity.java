@@ -1,4 +1,4 @@
-Fpackage com.example.rolex;
+package com.example.rolex;
 
 import android.Manifest;
 import android.content.pm.PackageManager;

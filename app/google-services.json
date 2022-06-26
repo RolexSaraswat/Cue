@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "157059289264",
+    "firebase_url": "https://rolex-cue-default-rtdb.firebaseio.com",
+    "project_id": "rolex-cue",
+    "storage_bucket": "rolex-cue.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:157059289264:android:a4ed61f1393fb9c9c76b75",
+        "android_client_info": {
+          "package_name": "com.example.rolex"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "157059289264-mg388r1n26gqm0n5jflsc2shae8dh3ho.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rolex",
+            "certificate_hash": "713b771bdb9685aefc13a63f7370d7d8b1233104"
+          }
+        },
+        {
+          "client_id": "157059289264-qtgroselkjdcs4u4b4chf6ssed2a5ea3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUXSp-rsnE3WYtnooXCNOgrcvJjOhJSAw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "157059289264-qtgroselkjdcs4u4b4chf6ssed2a5ea3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
